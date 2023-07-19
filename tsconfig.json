@@ -1,0 +1,9 @@
+{
+  "compilerOptions": {
+    "baseUrl": "./",
+    "paths": {},
+    "alwaysStrict": true,
+    "strict": true,
+    "strictNullChecks": true
+  }
+}

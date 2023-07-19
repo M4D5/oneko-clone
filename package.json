@@ -1,0 +1,11 @@
+{
+  "scripts": {
+    "tsBuild": "tsc --project tsconfig.json",
+    "build": "esbuild src/main.ts --outdir=dist --bundle --minify --loader:.gif=dataurl --target=ES2016"
+  },
+  "devDependencies": {
+    "esbuild": "0.18.16",
+    "typescript": "5.1.6"
+  }
+}
+
